@@ -1,0 +1,7 @@
+main {
+    padding: var(--spacing-54) var(--spacing-24);
+
+    @include breakpoint($break-medium) {
+        padding: var(--spacing-64) var(--spacing-32);
+    }
+}
