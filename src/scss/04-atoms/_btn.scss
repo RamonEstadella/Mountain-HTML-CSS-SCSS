@@ -1,1 +1,27 @@
-// Code here
+.btn {
+    padding-left: var(--spacing-12);
+    padding-right: var(--spacing-12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--input-and-btn-height);
+    border-radius: var(--border-radius-4);
+    gap: var(--spacing-12);
+}
+
+// BTN filled
+
+.btn--filled {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+// BTN text
+.btn--text {
+    background-color: transparent;
+    color: var(--color-black);
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    
+}

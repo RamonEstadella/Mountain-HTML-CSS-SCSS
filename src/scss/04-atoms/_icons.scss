@@ -17,10 +17,7 @@
 }
 
 $icons: 
-    moto-logo,
-    user,
-    burguer-menu,
-    discount
+    cart
 ;
 
 @each $icon in $icons {

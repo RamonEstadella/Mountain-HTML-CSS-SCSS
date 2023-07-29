@@ -48,3 +48,43 @@ export default class CartService {
         console.log(this.cart);
     }
 };
+
+/*
+
+const ciudades = [
+  "Nueva York",
+  "Los Ángeles",
+  "Chicago",
+  "Houston",
+  "Nueva York",
+  "Miami",
+  "Seattle",
+  "Chicago",
+  "San Francisco",
+  "Houston",
+  "Las Vegas",
+  "Miami"
+];
+
+function countCities() {
+    /*let cityCounter = 0;
+    ciudades.forEach(city => {
+        if (city === "Nueva York") {
+            cityCounter += 1;
+        }
+    });*/
+    
+    const counter = ciudades.reduce((cityCounter, city) => {
+        if (city === "Nueva York") {
+                cityCounter += 1;
+        }
+        return cityCounter;
+            
+    }, 0);
+    };
+    
+
+
+
+
+*/

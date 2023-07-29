@@ -5,3 +5,13 @@ main {
         padding: var(--spacing-64) var(--spacing-32);
     }
 }
+
+.temporada {
+    background-image: url(../../assets/images/climbing-orange.png);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 172px;
+    margin: auto;
+    border-radius: 10px;
+}
