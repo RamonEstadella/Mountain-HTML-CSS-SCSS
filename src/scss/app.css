@@ -259,7 +259,7 @@ main {
 }
 
 .temporada {
-  background-image: url(../../assets/images/climbing-orange.png);
+  background-image: url(../assets/images/climbing-orange.png);
   background-position: center;
   background-size: cover;
   width: 90%;
