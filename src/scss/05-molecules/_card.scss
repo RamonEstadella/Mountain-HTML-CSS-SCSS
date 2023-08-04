@@ -1,1 +1,22 @@
-// Code here
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 425px) {
+    .card {
+        max-width: 325px;
+        margin-bottom: 20px;
+    }
+}
+
+.card__img {
+    border: 1px solid orange;
+    margin-bottom: 10px;
+}
+
+.card__p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}

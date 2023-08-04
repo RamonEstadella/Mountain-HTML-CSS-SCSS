@@ -223,47 +223,160 @@ body {
   gap: var(--spacing-12);
 }
 
+.btn--article {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  width: 180px;
+  height: 40px;
+}
+
 .btn--filled {
   background-color: var(--color-orange);
   color: var(--color-white);
+  height: 40px;
 }
 
 .btn--text {
   background-color: transparent;
   color: var(--color-black);
-  position: absolute;
-  right: 0;
   padding: 20px;
+  position: absolute;
+  right: 30px;
+}
+
+.all-products__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn__link {
+  color: black;
+  font-size: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .header__img {
   padding: 20px;
 }
 
+.header__a {
+  position: absolute;
+  left: 0px;
+}
+
+@media (min-width: 425px) {
+  .header__img {
+    padding-left: 50px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 425px) {
+  .card {
+    max-width: 325px;
+    margin-bottom: 20px;
+  }
+}
+.card__img {
+  border: 1px solid orange;
+  margin-bottom: 10px;
+}
+
+.card__p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 .header {
+  position: relative;
   width: 100%;
-  height: 70px;
+  height: 80px;
   display: flex;
   flex-direction: row;
-  position: relative;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px solid black;
 }
 
-main {
-  padding: var(--spacing-54) var(--spacing-24);
-}
-@media (min-width: 768px) {
-  main {
-    padding: var(--spacing-64) var(--spacing-32);
-  }
+.main {
+  padding: 20px;
 }
 
+@media (min-width: 425px) {
+  .main {
+    padding: 50px;
+  }
+}
 .temporada {
-  background-image: url(../assets/images/climbing-orange.png);
+  background-image: url(../assets/images/BACKGROUND.png);
   background-position: center;
   background-size: cover;
-  width: 90%;
-  height: 172px;
-  margin: auto;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 425px) {
+  .temporada {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.temporada__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 425px) {
+  .temporada__div {
+    margin-left: 50px;
+  }
+}
+.temporada__p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.all-products__h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.all-products__h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 425px) {
+  .all-products__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.footer {
+  background-color: rgb(231, 228, 228);
+  width: 100%;
+  height: 100px;
 }/*# sourceMappingURL=app.css.map */

@@ -9,19 +9,46 @@
     gap: var(--spacing-12);
 }
 
+//BTN Article
+
+.btn--article {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 180px;
+    height: 40px;
+}
+
 // BTN filled
 
 .btn--filled {
     background-color: var(--color-orange);
     color: var(--color-white);
+    height: 40px;
 }
 
 // BTN text
 .btn--text {
     background-color: transparent;
     color: var(--color-black);
-    position: absolute;
-    right: 0;
     padding: 20px;
-    
+    position: absolute;
+    right: 30px;
+}
+
+// BTN climbing material
+
+.all-products__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.btn__link {
+    color: black;
+    font-size: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
 }

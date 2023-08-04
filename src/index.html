@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página productos Mountain</title>
+        <title>Productos Mountain</title>
         <link rel="stylesheet" href="scss/app.css">
         <script type="module" src="js/app.js"></script>
     </head>
@@ -20,14 +20,61 @@
         </header>
         <main class="main">
             <article class="temporada">
-                <p class="temporada__p">Nueva Temporada Verano 2023</p>
-                <button class="btn btn--filled">Ver novedades</button>
+                <div class="temporada__div">
+                    <p class="temporada__p">Nueva Temporada Verano 2023</p>
+                    <button class="btn btn--article">Ver novedades</button>
+                </div>
             </article>
             <div class="all-products">
-                <!-- Page code here -->
+                <h1 class="all-products__h1">Todos los productos</h1>
+                <div class="all-products__buttons">
+                    <button class="btn btn__link">Cascos</button>
+                    <button class="btn btn__link">Calzado</button>
+                    <button class="btn btn__link">Ropa</button>
+                </div>
+                <h2 class="all-products__h2">6 resultados de productos</h2>
+                <div class="all-products__cards">
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/helmet.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">Red Skull Helmet</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/peudegat1.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">SCARPA Tiger</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/peudegat2.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">SCARPA Aqua</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/pantalonescortos.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">Pantalones Cortos Rain</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/pantaloneslargos.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">Pantalones Largos Geminis</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                    <div class="card all-products__card">
+                        <img class="card__img" src="../src/assets/images/pantaloneslargos2.png" width="100%" height="70%"/>
+                        <h3 class="card__h3">Pantalones Largos Wild Forest</h3>
+                        <p class="card__p">5€ (con IVA)</p>
+                        <button class="btn btn--filled">Añadir a la cesta</button>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="footer">
+
         </footer>
     </body>
 </html>
