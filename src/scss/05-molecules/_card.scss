@@ -4,19 +4,16 @@
     margin-bottom: 20px;
 }
 
-@media(min-width: 425px) {
-    .card {
-        max-width: 325px;
-        margin-bottom: 20px;
-    }
-}
-
 .card__img {
     border: 1px solid orange;
     margin-bottom: 10px;
 }
 
+.card__h3 {
+    font: var(--font-h3);
+}
+
 .card__p {
-    font-size: 12px;
+    font: var(--font-body);
     margin-bottom: 10px;
 }
