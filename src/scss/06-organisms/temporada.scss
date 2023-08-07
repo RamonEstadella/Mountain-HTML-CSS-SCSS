@@ -10,24 +10,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-@media(min-width: 425px) {
-    .temporada {
+    @include breakpoint($break-small) {
         justify-content: center;
         align-items: flex-start;
     }
 }
+
 
 .temporada__div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-@media(min-width: 425px) {
-    .temporada__div {
+    @include breakpoint($break-small) {
         margin-left: 50px;
     }
 }

@@ -1,16 +1,14 @@
 // Code here
-
-.header__img {
-    padding: 20px;
-}
-
 .header__a {
     position: absolute;
     left: 0px;
 }
 
-@media (min-width: 425px) {
-    .header__img {
+
+.header__img {
+    padding: 20px;
+
+    @include breakpoint($break-small) {
         padding-left: 50px;
     }
 }

@@ -260,20 +260,33 @@ body {
   margin-bottom: 10px;
 }
 
-.header__img {
-  padding: 20px;
-}
-
 .header__a {
   position: absolute;
   left: 0px;
 }
 
-@media (min-width: 425px) {
+.header__img {
+  padding: 20px;
+}
+@media (min-width: 480px) {
   .header__img {
     padding-left: 50px;
   }
 }
+
+.chip {
+  padding: var(--spacing-8) var(--spacing-12);
+  border-radius: var(--border-radius-4);
+  font: var(--font-body-small);
+  margin-bottom: var(--spacing-12);
+}
+
+.chip--btn--unselected {
+  background-color: var(--color-transparent);
+  color: var(--color-black);
+  border: var(--border-width-1) solid var(--color-black);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -308,12 +321,12 @@ body {
 .main {
   padding: 20px;
 }
-
-@media (min-width: 425px) {
+@media (min-width: 480px) {
   .main {
     padding: 50px;
   }
 }
+
 .footer {
   background-color: rgb(231, 228, 228);
   height: 100px;
@@ -332,25 +345,25 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-@media (min-width: 425px) {
+@media (min-width: 480px) {
   .temporada {
     justify-content: center;
     align-items: flex-start;
   }
 }
+
 .temporada__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-@media (min-width: 425px) {
+@media (min-width: 480px) {
   .temporada__div {
     margin-left: 50px;
   }
 }
+
 .temporada__p {
   font-size: 13px;
   text-align: center;
@@ -371,7 +384,7 @@ body {
   margin-bottom: 10px;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   .all-products__cards {
     width: 100%;
     display: grid;
@@ -379,7 +392,7 @@ body {
     gap: var(--spacing-32);
   }
 }
-@media (min-width: 62rem) {
+@media (min-width: 992px) {
   .all-products__cards {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
